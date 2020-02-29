@@ -1,0 +1,33 @@
+
+.navbar-brand {
+    background-color: blue;
+
+}
+
+body {
+    background: silver;
+}
+
+footer {
+    text-align: center;
+    
+}
+
+.card {
+    border: 1px solid #ddd;
+
+}
+
+.card-title {
+    font-weight: normal;
+    color: black;
+}
+
+.form {
+    float: right;
+    width: 100%;
+    margin-bottom: .5%;
+
+
+}
+

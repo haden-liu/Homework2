@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+
+  <!-- We need to bring in the bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+
+<body>
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <dt>Haden</dt>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portfoilo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contact.html#">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <br>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+          <!-- The content in this div gets wrapped in a card -->
+            <div class="card">
+              <div class="card-title">
+                Portfolio
+              </div>
+
+              <div>
+                <div class="row">
+                    <div class="col-lg-4">
+                      <img class="card-img-left" src="https://thegoodguys.sirv.com/products/50048942/50048942_534018.PNG?scale.height=505&scale.width=773&canvas.height=505&canvas.width=773&canvas.opacity=0&q=90" alt="Card image cap" width="200" height="200">
+                      <div class="word-overlay">Word Guess</div>
+                    </div>
+                    <div class="col-lg-4">
+                      <img class="card-img-right" src="data:image/jpeg;base64,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" alt="Card image cap" width="200" height="200">
+                      <div class="word-overlay">RFG Game</div>
+                    </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img class="card-img-left" src="https://www.macworld.co.uk/cmsdata/features/3612963/how_to_get_music_on_iphone_1600home_thumb800.jpg" alt="Card image cap" width="200" height="200">
+                    <div class="word-overlay">Trivia Game</div>
+                  </div>
+                  <div class="col-lg-4">
+                    <img class="card-img-right" src="https://www.lenovo.com/medias/lenovo-tablet-m10-hero-1-.png?context=bWFzdGVyfHJvb3R8NjI0MTF8aW1hZ2UvcG5nfGgyMi9oMmIvOTk4ODM0NjQ0NTg1NC5wbmd8MDYxMDlmYTE0M2YxZDMyM2VjYTUyMThjNDQwM2VlNzgyYTQ5ZTM0OTVlZmM4OWI3OTc0ZjA1NjI4YjYwNTQxZQ" alt="Card image cap" width="200" height="200">
+                    <div class="word-overlay">Info Widget</div>
+                  </div>
+                </div>
+                
+                <div class="row">
+                  <div class="col-lg-8">
+                    <img class="card-img-left" src="https://images-na.ssl-images-amazon.com/images/I/41-4rXp3a3L._AC_SY400_.jpg" alt="Card image cap" width="200" height="200">
+                    <div class="word-overlay">Rock Papper Scissor</div>
+                  </div>
+
+                </div> 
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+  <p>@Copyright</p>
+</footer>
+
+</html>

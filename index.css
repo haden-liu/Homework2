@@ -1,0 +1,17 @@
+.image {
+    position: relative;
+}
+
+.card-img-left {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.form-group w-75 {
+    float: right
+}
+
+footer {
+    text-align: center;
+}
